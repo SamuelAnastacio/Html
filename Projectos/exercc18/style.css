@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Treindo selectores / Minha Folha de Estilo*/
+
+body{
+
+    background-color: rgba(27, 27, 185, 0.575);
+    
+}
+
+h1#principal{
+    background-color: blue;
+    text-align: left;
+    font: bold;
+}
+
+h1{
+    color: rgb(19, 71, 71);
+    text-align: center;
+}
+h2{
+    color: blue;
+}
+.titulo{
+    color: aqua;
+    text-align: left;
+    font:normal
+}

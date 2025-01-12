@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Midias Playes</h1>
+    <h2>Imagens dinámicas</h2>
+    <p>Para inserir imagens é necessário conhecer a tag picture</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imgp.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imgm.png" type="image/png">
+        <img src="imagens/imgg.jpg" alt="imagem.grande">
+    </picture>
+    <p>Uma vida melhor</p>
+    <h2>
+        Colocando áudio
+    </h2>
+    <p>Musica do Luck dube</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="audio/01-Remember-L.DUBY.mp3" type="audio/mpeg">
+        <p>Não foi possível carregar o áudip«o, baixe <a href="audio/01-Remember-L.DUBY.mp3" download="01-Remember-L.DUBY.mp3" type="audio/mpeg"></a> </p>
+    </audio>
+   <audio src="audio/01-Remember-L.DUBY.mp3"  autoplay controls loop></audio> 
+   <p>Tentando baixar audio</p>
+   <a href="audio/01-Remember-L.DUBY.mp3" download="01-Remember-L.DUBY.mp3" type="audio/mpeg">LuckDube</a>
+</body>
+</html>

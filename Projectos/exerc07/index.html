@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        mark {
+                background-color: aqua;
+
+        }
+    </style>
+    <title>Fomatar texto</title>
+</head>
+<body>
+    <h1>Formatação de Texto</h1>
+    <h2>Negritando</h2>
+    <p>Lorem ipsum dolor sit amet 
+        <strong>consectetur adipisicing elit. Fugit ipsam cumque recusandae</strong> mollitia voluptatum, facilis, delectus natus numquam,
+         veritatis quae et soluta quibusdam pariatur architecto impedit! Explicabo repellat quos consequuntur.</p>
+    <h2>Italizar o texto</h2>
+    <p>Lorem ipsum , <em>adipisicing elit</em> . Fugiat rerum facilis reiciendis molestias,
+        iste minus non doloribus velit quae pariatur alias, harum praesentium rem fuga est iusto ipsam dicta! Distinctio.</p>
+        <h2>Marcar um Texto</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Sed  <mark style="background-color: rgb(31, 119, 119);">quaerat tempora ratione.</mark>  Veniam blanditiis vero cumque eum recusandae, 
+         sed impedit <mark>minha marcada apartir de style na head</mark> eos ut porro consectetur temporibus consequatur, eligendi iste consequuntur quam.</p>
+    <h2>Ulizar a tag Sup</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In blanditiis neque at saepe eaque sapiente consequuntur distinctio rem. Odio,
+        20 <sup>8</sup>  + 5 quas aut! Corrupti perspiciatis necessitatibus blanditiis non excepturi dolorem facilis unde?</p>
+        <h2>Utilzar a tag Sub</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum blanditiis suscipit consequuntur omnis, neque reiciendis architecto itaque dolorem dolore recusandae rem.
+            H <sub>2</sub>O Veniam officia similique dolores eius ex quaerat expedita voluptatibus!</p>
+    <h2>Texto descartado exluido</h2>
+    <p>Lorem ipsum dolor <del>sit amet consectetur adipisicing elit</del> .
+         Molestiae atque exercitationem cumque dolor dolorum asperiores 
+         iusto nobis vel excepturi quod rem saepe ut nam enim, debitis dolorem quisquam distinctio facere?</p>
+    <h2>Texto descartado insireido (sublinhado)</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error a eaque nobis, corrupti alias ipsum, ab,
+        quia facilis <ins>facere quod officia accusamus</ins>  labore harum vitae! Voluptatem, autem atque. Dolor, optio?</p>
+        <h2>Revisando símbolo e Imoji</h2>
+        &dollar;
+        &#x1F9586;
+    <h2>Trabalhando Com Listas</h2>
+    <h3>Primeiro Listas Ordenadas</h3>
+    <p>Para trabalhar com listas Ordenadas utilizamos a tag ol</p>
+    <ol type="1">
+        <li>Matemática</li>
+        <li>Física</li>
+        <li>Informáica</li>
+        <li>Química</li>
+        <li>Inglês</li>
+    </ol>
+    <ul type="circle">
+        <li>Andar</li>
+        <li>Correr</li>
+        <li>Comer</li>
+        <li>Estudar</li>
+    </ul>
+    <h2>
+        Listas Mistas
+        <h3>
+            Minhas Llinguagens Favoritas
+        </h3>
+    </h2>
+    <ol type="1">
+        <li>Antigas
+            <ul type="square">
+                <li>Linguagem c
+                <li>Linguagem C#
+                <li>Linguagem Java
+            </ul>
+         <li>Novas
+            <ul type="disc">
+                <li>Linguagem Js
+                    <ol type="1">
+                       <li> Node Js
+                        <li>Reac Native
+                    </ol>
+                <li> Linguagem Python
+                    <ol>
+                        <li>Python IA
+                        <li>Python Hacking
+                    </ol>
+                <li> Linguagem PHP
+                <li> Linguagem Kotlin
+                <li> Linguagem Dart
+           </ul>
+    </ol>
+    <p>Podemos fazer listas mistas utilizando ol e ul</p> 
+    <h1>Criando Links</h1>
+        <p>
+            para cria links devemos saber se estamos a lidar como links externo ou internos <br> O links externos devemos lembra que deve abrir uma outra aba <br>e os links internos não tem necessidade de abrir abas.
+        </p>
+    <h2>Links Externo</h2>
+    <p>Este link abaixo não permite que a página original seje fechado a clicar no link</p> 
+    <a href="https://gustavoguanabara.io.github" target="_blank" rel="external">Texto Linkado</a>
+    <h2>Link internos</h2>
+    <p>Este link permite que a página original se feche ao abrir ao clicar no link</p>
+    <a href="https://facebook.samuelgeuel.anastacio.com" target="_self" rel="nofollow">Texto lilnkado que fecha aba original </a>
+    <h3>Outos tipos de links internos</h3>
+    <a href="page02.html" target="_self" rel="next">Ir para a página 2</a>
+    <h3>Mais Links</h3>
+    <a href="page03/page03.html" target="_self" rel="next">Ir para página 3</a>
+
+    <h1>Links Para Download</h1>
+    <ol>
+        <li><a href="meulivro/livro.pdf.pdf" download="livro.pdf.pdf" type="application/pdf">Baixar o livro em pdf</a>
+        <li><a href="meulivro/livro.zip" download="livro.zip" type="application/zip">Baixar o livro em zip</a>
+    </ol>
+</body>
+</html>

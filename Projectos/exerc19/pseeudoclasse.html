@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinado PseudoClasses</title>
+    <style>
+        .cont{
+            display:inline-block ;
+            background-color: lightgray;
+            border: 1px solid blue;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            box-shadow: 2px 2px 2px blue;
+            margin:auto;
+            border-radius: 10px;
+        }
+        .cont:hover{
+            background-color: aqua;
+        }
+
+        div>p{
+            display: none;
+        }
+        div:hover>p{
+            display: block;
+            background-color: blueviolet;
+            color: #000;
+            border: 5px solid blue;
+            border-radius:10px;
+            height: 200px;
+            width: 200px;
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Minhas Dives</h1>
+    <div class="cont">01</div>
+    <div class="cont">02</div>
+    <div class="cont">03</div>
+    <h1>Treinado Hover</h1>
+    
+    <div>
+        Existe Um Texto Escondido POr aqui
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsam, labore architecto quae consequatur doloremque velit commodi ipsa cupiditate aspernatur, quibusdam veniam
+         neque sapiente quia perferendis beatae. Quis,
+          quos excepturi.</p>
+    </div>
+</body>
+</html>
